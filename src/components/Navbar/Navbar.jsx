@@ -1,7 +1,56 @@
 import React from 'react';
 
 function Navbar() {
-  return <div className="text-red-500">Navbar</div>;
+  return (
+    <nav className="sticky top-0 z-50 flex w-full flex-wrap items-center justify-between bg-white py-6 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600">
+      <div className="container 2xl">
+        <div className="flex w-full flex-wrap items-center justify-between">
+          <div>
+            <a
+              className="text-xl font-semibold text-neutral-800 dark:text-neutral-200"
+              href="#"
+            >
+              Navbar
+            </a>
+          </div>
+          <ul className="flex gap-5">
+            <li>
+              <a
+                href="/"
+                className="text-lg text-black font-bold hover:text-sky-500"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                className="text-lg text-black font-bold hover:text-sky-500"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                className="text-lg text-black font-bold hover:text-sky-500"
+              >
+                Project
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                className="text-lg text-black font-bold hover:text-sky-500"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
