@@ -69,3 +69,8 @@ html {
     transform: translateY(-70%);
   }
 }
+
+
+.modal-mobile {
+  transition: left linear .3s;
+}

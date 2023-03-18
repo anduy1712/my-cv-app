@@ -22,7 +22,7 @@ function CardProject({
           <img className="animation-scroll" src={src} alt="img-project" />
         </a>
       </div>
-      <div className="flex-1 text-center mx-20 my-10 max-md:w-full">
+      <div className="flex-1 text-center mx-20 my-10 max-md:w-full max-md:mx-0">
         <h4 className="text-[18px] font-bold text-[#2d2e32] uppercase mb-3">
           {title}
         </h4>
