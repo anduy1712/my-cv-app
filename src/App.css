@@ -43,33 +43,13 @@ html {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
   }
-
+.animation-scroll {
+  transform: translateY(0%);
+  transition: transform linear 8s;
+}
 .animation-scroll:hover {
-  animation: animation-scoll-down 8s linear 0s;
+  transform: translateY(-70%);
 }
-
-@keyframes animation-scoll-down {
-  0% {
-    transform: translateY(0%);
-  }
-
-  20% {
-    transform: translateY(-20%);
-  }
-
-  40% {
-    transform: translateY(-40%);
-  }
-  
-  60% {
-    transform: translateY(-60%);
-  }
-
-  100% {
-    transform: translateY(-70%);
-  }
-}
-
 
 .modal-mobile {
   transition: left linear .3s;
