@@ -5,6 +5,9 @@ module.exports = {
     extend: {},
     container: {
       center: true
+    },
+    fontFamily: {
+      display: ['Roboto']
     }
   },
   plugins: []
