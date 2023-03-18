@@ -8,11 +8,14 @@ html {
 }
 
 /* FIX LATER */
-:target:before {
+/* :target:before {
   content: "";
   display: block;
   height: 100px;
   margin: -100px 0 0;
+} */
+#home, #about, #project, #contact {
+    scroll-margin-top: 70px;
 }
 
 .hero-img {
