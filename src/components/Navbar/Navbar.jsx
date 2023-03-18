@@ -7,16 +7,16 @@ function Navbar() {
         <div className="flex w-full flex-wrap items-center justify-between">
           <div>
             <a
-              className="text-xl font-semibold text-neutral-800 dark:text-neutral-200"
+              className="text-xl font-bold text-neutral-800 dark:text-neutral-200"
               href="#"
             >
-              Navbar
+               Duy An
             </a>
           </div>
           <ul className="flex gap-5">
             <li>
               <a
-                href="/"
+                href="#home"
                 className="text-lg text-black font-bold hover:text-sky-500"
               >
                 Home
@@ -24,7 +24,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="/"
+                href="#about"
                 className="text-lg text-black font-bold hover:text-sky-500"
               >
                 About
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="/"
+                href="#project"
                 className="text-lg text-black font-bold hover:text-sky-500"
               >
                 Project
@@ -40,7 +40,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="/"
+                href="#contact"
                 className="text-lg text-black font-bold hover:text-sky-500"
               >
                 Contact
